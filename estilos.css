@@ -1,0 +1,131 @@
+/* Estilos generales */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://img.freepik.com/foto-gratis/vendajes-medicos-pastillas-espacio-copia_23-2149341587.jpg?w=900&t=st=1699714505~exp=1699715105~hmac=cc4647bfee12681a72d7567e9a0bf2fa4903ad9529fcb7d422195f5647caf60a');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    image-rendering: auto; /* Mejora la nitidez de la imagen */
+}
+
+/* Estilos para centrar el formulario verticalmente */
+.login-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Altura igual al 100% del viewport */
+}
+
+.login-form {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 40px;
+    font-family: "Arial", sans-serif; /* Cambia la fuente del texto */
+    margin-top: 30px; /* Agrega margen superior para desplazar el formulario hacia abajo */
+    color: rgb(5, 74, 135); /* Color del texto blanco */
+}
+
+/* Estilo para alinear iconos junto a los campos de entrada */
+.icon-input {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para los iconos */
+i.bx {
+    font-size: 20px; /* Ajusta el tamaño del icono según tus preferencias */
+    margin-right: 10px; /* Espacio entre el icono y el campo de entrada */
+}
+.mb-3 i.bx {
+    color: #000; /* Color negro para los iconos */
+    font-size: 20px; /* Tamaño de fuente de los iconos */
+}
+
+/* Estilos para el título "Bienvenido" */
+h2 {
+    color: #074e95; /* Color del título */
+    font-size: 30px; /* Tamaño de fuente del título */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos para el párrafo */
+p {
+    color: #998888; /* Color del texto del párrafo */
+    font-size: 16px; /* Tamaño de fuente del párrafo */
+    margin-bottom: 20px; /* Espacio inferior del párrafo */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Resto de tus estilos aquí... */
+
+/* Estilo para el contenedor de botón y enlace */
+.button-and-link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px; /* Espacio entre el botón y el enlace */
+}
+
+/* Estilo para el enlace "Crear cuenta" */
+.create-account-link {
+    color: #09148f;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.create-account-link a {
+    color: #09148f;
+    text-decoration: none;
+}
+
+.create-account-link:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor por encima */
+}
+
+/* Resto de tus estilos aquí... */
+
+/* Centra los elementos dentro de los div "mb-3" */
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Estilo para los campos de entrada con iconos */
+.mb-3 input {
+    border-radius: 15px; /* Agrega un borde redondeado */
+    background-color: transparent; /* Fondo transparente */
+    border: 1px solid #000000; /* Agrega un borde a los campos de entrada */
+    padding: 8px; /* Añade espacio interno para mejorar la apariencia */
+    font-family: "Arial", sans-serif; /* Cambia la fuente del texto de los campos */
+    font-size: 20px;
+}
+
+/* Estilo para el botón "Iniciar Sesión" */
+.btn-primary {
+    background-color: transparent; /* Fondo transparente */
+    border: 1px solid #000; /* Borde negro de 1 píxel */
+    color: #000; /* Texto en color negro */
+    padding: 10px 20px; /* Ajusta el espaciado interno según tus preferencias */
+    font-weight: bold; /* Texto en negrita */
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, color 0.3s; /* Agrega una transición suave */
+}
+
+.btn-primary:hover {
+    background-color: #0d7dd8ee; /* Cambia el fondo al pasar el cursor por encima */
+    color: #fff; /* Cambia el texto a blanco al pasar el cursor por encima */
+    border: 1px solid #fff; /* Cambia el borde al pasar el cursor por encima */
+}
+

@@ -1,0 +1,48 @@
+/* Estilos generales */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    padding: 100px;
+    padding-top: 30px;
+    background-color: #094c8f;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Estilos del formulario */
+.register-form {
+    background-color: #cfcfcf;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    color: white;
+    border: 2px solid #094c8f;
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    width: 60%; /* Ancho del formulario reducido */
+}
+
+/* Estilos para etiquetas y campos de entrada */
+.form-label {
+    color: #094c8f; /* Color de etiquetas */
+}
+
+.form-control {
+    border: 1px solid #094c8f; /* Borde de campos de entrada */
+}
+
+/* Estilo del botón */
+.btn-primary {
+    background-color: #094c8f; /* Color de fondo del botón */
+    border: 1px solid #094c8f; /* Borde del botón */
+    color: white; /* Color del texto del botón */
+}
+
+/* Estilo para el título del formulario */
+.text-secondary {
+    color: #094c8f; /* Color del título */
+}
